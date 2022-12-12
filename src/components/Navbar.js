@@ -10,6 +10,9 @@ function Navbar() {
                 {/* we use <Link> </Link> instead of <a> </a> to avoid reload whole page after click on anchor element */}
                 <li><a href="/"> Home_anchor </a></li>
                 <li><a href="/about"> About_anchor</a></li>
+
+                {/* invalid link no route defined in app.js redirect on home page/404 */}
+                <li> <Link to="/contact">Contact us(missing)</Link></li>
             </ul>
         </>
     )
