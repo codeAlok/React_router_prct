@@ -7,6 +7,10 @@ function About() {
             <p>Welcome to my cool simple About Page</p>
             <p>Get Knowledge and learn something here</p>
             <Link to="/"> Go to Home page</Link>
+
+            <li><Link to="/user/alok">Alok</Link></li>
+            <li><Link to="/user/peter">peter</Link></li>
+
         </>
     )
 }
